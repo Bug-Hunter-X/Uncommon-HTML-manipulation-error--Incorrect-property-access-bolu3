@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text will be replaced.
+  </div>
+  <script>
+    const myElement = document.getElementById('myDiv');
+    myElement.textContent = "New text!"; // Correctly update textContent
+  </script>
+</body>
+</html>
