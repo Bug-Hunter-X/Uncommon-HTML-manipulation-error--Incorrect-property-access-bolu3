@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon error that can occur when manipulating HTML elements using JavaScript. The bug involves attempting to use a method or property on a NodeList that does not exist. The solution shows the correct way to achieve the desired behavior.
