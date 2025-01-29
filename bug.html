@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text will be replaced.
+  </div>
+  <script>
+    // Incorrectly attempting to access a non-existent property
+    const myElement = document.getElementById('myDiv');
+    myElement.replaceChildren.textContent = "New text!"; 
+  </script>
+</body>
+</html>
